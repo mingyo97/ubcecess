@@ -1,23 +1,40 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
+  {% include head.html %}
 
-  <h1 class="page-heading">Posts</h1>
+  <body>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% include header.html %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- Image -->
+    <div class="container-fluid home">
+    	<div class="row">
+    		<!-- ECE LOGO -->
+    		<div class="col-md-6 home-logo">
+    			<img src="/images/logo.svg" height="140px">
+    		</div>
+    		<!-- Title -->
+    		<div class="col-md-6 home-title">
+    			<h1>UNDERGRADUATE</h1>
+    			<h1><b>STUDENT SOCIETY</b></h1>
+    		</div>
+    	</div>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!-- News -->
+    <div>
+    	<h1>News</h1>
+    </div>
+    <!-- Timeline -->
 
-</div>
+    <!-- Swag -->
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

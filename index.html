@@ -1,9 +1,42 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<!-- Welcome to ECE -->
-<div class="home">
-	<!-- Homepage image goes here -->
+=======
+  {% include head.html %}
 
-</div>
+  <body>
+
+    {% include header.html %}
+
+    <!-- Image -->
+    <div class="container-fluid home">
+    	<div class="row">
+    		<!-- ECE LOGO -->
+    		<div class="col-md-6 home-logo">
+    			<img src="/images/logo.svg" height="140px">
+    		</div>
+    		<!-- Title -->
+    		<div class="col-md-6 home-title">
+    			<h1>UNDERGRADUATE</h1>
+    			<h1><b>STUDENT SOCIETY</b></h1>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- News -->
+    <div>
+    	<h1>News</h1>
+    </div>
+    <!-- Timeline -->
+>>>>>>> 5117924fbc83755bdc8a9080aa169b5e200edf30
+
+    <!-- Swag -->
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

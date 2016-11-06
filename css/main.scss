@@ -100,5 +100,21 @@ body {
 }
 
 .home {
-	text-align: center;
+	height: 450px;
+	background: url('/images/home.jpg') center center;
+	background-size: cover;
+}
+
+.home-title {
+	padding-top: 150px;
+	color: white;
+}
+
+.home-logo {
+	text-align: right;
+	padding-top: 150px;
+}
+
+h1 {
+	font-size: 1em;
 }

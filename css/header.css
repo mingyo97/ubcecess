@@ -13,7 +13,8 @@
     margin-right: 20px;
     /* Need to fix choppy font */
     font-family: Helvetica;
-    font-weight: bold;
+    font-size: 1.5em;
+    /*font-weight: bold;*/
 }
 
 .navbar-inverse .navbar-toggle {

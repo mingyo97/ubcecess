@@ -1,17 +1,36 @@
 ---
-layout: page
-title: Swag
-permalink: /swag/
 ---
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-**ECE SWAG BANNER GOES HERE**
 
-We sell the following products in the **ECESS** office in **MCLD 434**. We also have a few t-shirts with older designs on them that aren’t posted, ask someone in the office to view them.
+  {% include head.html %}
 
-The hoodies are perfect as a light jacket during your summer vacation, or as a study companion for those endless study sessions. The t-shirt allows you to show off your ECE pride front and centre! **Don’t miss out** on these incredible products and come to **MCLD 434** today!
+  <body>
 
-**HOODIES, T-SHIRTS, AND JACKETS GO HERE**
+    {% include header.html %}
 
-Other ECE swags:
+    <!-- Image -->
+    <div id="swag" class="container-fluid">
+		<!-- Swag -->
+    	<div class="title-box"> 
+            <p class="title"> Swag </p>
+        </div>
+    </div>
 
-**ECE PINS, ECE, LOGO STICKERS, ECE BUTTONS, ECE BEER GLASSES, ECE CIRCUIT TREE PATCH, AND ECESS BOLT PATCH GOES HERE**
+    <!-- Rainjackets -->
+    <div class="row-header">
+    	<h1>Rain Jackets</h1><p>for those cold Raincouver days</p>
+    </div>
+    <!-- Timeline -->
+    <img src="/images/Timeline.jpg">
+
+    <!-- Swag -->
+    <div class="home-swag">
+        <h1>Swag</h1><p>for your personal ECE collection</p>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

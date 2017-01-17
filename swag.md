@@ -21,9 +21,17 @@
 
 	<div class="container">
    		<!-- Rainjackets -->
- 			<h1>Rain Jackets</h1>
-			<p>for those cold Raincouver days</p>
+ 		<h1>Rain Jackets</h1>
+		<p>for those cold Raincouver days</p>
 
+		<div class="row-fluid blue-div">
+			<!--<div class="span12">
+				<div class="row-fluid">-->
+					<div class="span6"><img src="/images/NF_Men_ECELogo.gif" class="img-responsive"></div>
+					<div class="span6"></div>
+				<!--</div>
+			</div>-->
+		</div>
 		<!-- Swag -->
 		<div>
         	<h1>Swag</h1><p>for your personal ECE collection</p>

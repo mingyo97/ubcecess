@@ -103,7 +103,7 @@ body {
 	//height: 30%;
 	background: url('/images/IMG_homepage.jpg') center center;
 	background-size: cover;
-	text-align: center;
+	//text-align: center;
 	//padding-top: 150px;
 }
 
@@ -161,4 +161,18 @@ div p {
 	height: 30px;
 	margin-top: 9px;
 	margin-left: 2px;
+}
+
+.front-logo {
+	margin-top: 12.5%;
+//	margin-left: 2.5%;
+//	margin-right: 2.5%;
+	margin-bottom: 12.5%;
+}
+
+.blue-div {
+	border-width: 0.25em;
+	border-color: #2eb6dd;
+	border-style: solid;
+	background-color: #f4fbfd;
 }

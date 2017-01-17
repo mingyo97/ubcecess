@@ -10,25 +10,25 @@
     {% include header.html %}
 
     <!-- Image -->
-    <div id="swag" class="container-fluid">
+    <div id="swag" class="img-responsive center-block container-fluid">
+	<!-- Swag -->
+	<div class="row">
+    		<div class="title-box col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4"> 
+            	<p class="title"> Swag </p>
+        	</div>
+	</div>
+    </div>
+
+	<div class="container">
+   		<!-- Rainjackets -->
+ 			<h1>Rain Jackets</h1>
+			<p>for those cold Raincouver days</p>
+
 		<!-- Swag -->
-    	<div class="title-box"> 
-            <p class="title"> Swag </p>
-        </div>
-    </div>
-
-    <!-- Rainjackets -->
-    <div class="row-header">
-    	<h1>Rain Jackets</h1><p>for those cold Raincouver days</p>
-    </div>
-    <!-- Timeline -->
-    <img src="/images/Timeline.jpg">
-
-    <!-- Swag -->
-    <div class="home-swag">
-        <h1>Swag</h1><p>for your personal ECE collection</p>
-    </div>
-
+		<div>
+        	<h1>Swag</h1><p>for your personal ECE collection</p>
+    	</div>
+	</div>
     {% include footer.html %}
 
   </body>

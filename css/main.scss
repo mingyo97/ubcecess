@@ -100,37 +100,39 @@ body {
 }
 
 #home {
-	height: 450px;
+	//height: 30%;
 	background: url('/images/IMG_homepage.jpg') center center;
 	background-size: cover;
 	text-align: center;
-	padding-top: 150px;
+	//padding-top: 150px;
 }
 
 #swag {
-	height: 450px;
-	background: url('/images/IMG_swag.jpg') center center;
+	//height: 40%;
+	background: url('/images/IMG_swag.jpg') ;
 	background-size: cover;
-	text-align: center;
-	padding-top: 100px;
+	//text-align: center;
+	//padding-top: 100px;
 }
 
 .title-box {
-	width: 500px;
-	height: 250px;
+	width: 40%;
+	//height: 25px;
 	border-style: solid;
-	border-width: 12px;
+	border-width: 0.75em;
 	border-color: white;
 	text-align: center;
-	margin: auto;
+	//margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .title {
 	color: white;
 	font-family: sans-serif;
-	font-size: 80px;
+	font-size: 5em;
 	text-align: center;
-	padding-top: 50px;
+	//padding-top: 50px;
 }
 
 .home-swag {
@@ -142,23 +144,21 @@ div row-header {
 }
 
 div h1 {
-	font-size: 80px;
+	font-size: 3.5em;
 	color: #2eb6dd;
-	padding-left: 50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
 	display: inline-block;
 }
 
 div p {
-	font-size: 36px;
+	font-size: 1.75em;
 	font-color: #5c7a83;
 	display: inline-block;
-	margin-left: 20px;
-	margin-bottom: 5px;
+	margin-left: 10px;
+	//margin-bottom: 5px;
 }
 
 .nav-logo {
 	height: 30px;
 	margin-top: 9px;
+	margin-left: 2px;
 }
